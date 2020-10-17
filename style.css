@@ -209,7 +209,7 @@ input:focus {
 }
 
 .user-info ul {
-  display: flex;
+  display: block;
   justify-content: space-between;
   list-style-type: none;
   padding: 0;
@@ -217,8 +217,9 @@ input:focus {
 }
 
 .user-info ul li {
-  display: flex;
-  align-items: center;
+  /*display: flex;
+  align-items: center;*/
+  display:inline-block;
 }
 
 .user-info ul li strong {
@@ -229,7 +230,7 @@ input:focus {
 .lang {
   background-color: var(--site-card-bg-light);
   border-radius: 5px;
-  display: inline-block;
+  /*display: inline-block;*/
   color: white;
   font-size: 0.7rem;
   padding: 0.25rem 0.5rem;
